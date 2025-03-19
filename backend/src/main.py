@@ -22,7 +22,7 @@ app = FastAPI(title="LangChain LLM API")
 host_origin = os.getenv('ORIGIN')
 
 origins = [
-    "https://tangpt.tanflix.me/",
+    "https://madgpt.themadhvi.com",
     "http://localhost",
     "http://localhost:8080",
     "http://localhost:5173",
